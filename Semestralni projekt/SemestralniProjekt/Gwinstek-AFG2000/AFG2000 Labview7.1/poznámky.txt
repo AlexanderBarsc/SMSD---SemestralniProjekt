@@ -1,0 +1,18 @@
+GW INSTEK,AFG-2005,SN:GES816783,V2.04
+
+Reaguje:
+*IDN?
+*RST
+zadávání parametrù signálù
+
+Nereaguje:
+*ERR?
+*TST?
+zadání špatného pøíkazu
+zadání pøíkazu mimo rozsah
+
+
+poznámky
+V pøípadì výskitu timeout erroru se error query zacyklí, 
+opraveno ukonèením dotazování pokud je kod chyby 0 nebo 
+chyba pøetrvává true (timeout error)
